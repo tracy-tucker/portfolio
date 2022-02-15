@@ -1,5 +1,6 @@
 import { Link } from 'gatsby'
 import React from 'react'
+import logo from '../assets/coder-news-logo.svg'
 
 const Navbar = () => {
   return (
