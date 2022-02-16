@@ -23,6 +23,3 @@ const Navbar = ({toggle}) => {
 }
 
 export default Navbar
-
-// Add links and styleClass
-// Replace logo
