@@ -23,3 +23,5 @@ const Navbar = ({toggle}) => {
 }
 
 export default Navbar
+
+// Change to CORRECT logo
