@@ -8,13 +8,13 @@ const links = ({styleClass}) => {
             <Link to="/" className='page-link'>
                 Home
             </Link>
-            <Link to="/" className='page-link'>
+            <Link to="/about" className='page-link'>
                 About
             </Link>
-            <Link to="/" className='page-link'>
+            <Link to="/projects" className='page-link'>
                 Projects
             </Link>
-            <Link to="/" className='page-link'>
+            <Link to="/contact" className='page-link'>
                 Contact
             </Link>
         </li>
