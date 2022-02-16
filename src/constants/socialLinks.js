@@ -6,9 +6,9 @@ import {
     FaLinkedin,
 } from 'react-icons/fa'
 
-const socialLinks = () => {
+const socialLinks = ({styleClass}) => {
   return (
-    <ul>
+    <ul className={styleClass}>
         <li>
             <a href="https://www.linkedin.com/in/tracy-tucker/">
                 <FaLinkedin className='social-icon linkedin-icon'></FaLinkedin>
@@ -34,6 +34,3 @@ const socialLinks = () => {
 }
 
 export default socialLinks
-
-// add styleClass as destructured prop
-// add styleClass to ul
