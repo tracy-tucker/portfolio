@@ -2,8 +2,9 @@ import React from 'react'
 import { Link } from 'gatsby'
 import { FaBars } from 'react-icons/fa'
 import logo from '../assets/coder-news-logo.svg'
+import Links from '../constants/links'
 
-const Navbar = () => {
+const Navbar = ({toggle}) => {
   return (
     <nav className='navbar'>
         <div className="nav-center">
@@ -15,7 +16,7 @@ const Navbar = () => {
                     <FaBars />
                 </button>
             </div>
-            Add Links here
+            <Links styleClass='nav-links' />
         </div>
     </nav>
   )
@@ -23,4 +24,5 @@ const Navbar = () => {
 
 export default Navbar
 
-// Set up toggle function
+// Add links and styleClass
+// Replace logo
