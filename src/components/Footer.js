@@ -3,7 +3,7 @@ import SocialLinks from '../constants/socialLinks'
 
 const Footer = () => {
   return (
-    <footer className='footer'>
+    <footer className="footer">
         <div>
             <SocialLinks styleClass="footer-icons" />
             <p>
