@@ -14,7 +14,7 @@ Variables
     --clr-primary-10: #212121;
     /* secondary colors */
     --clr-grey-3: #949494;
-    --clr-grey-10: 
+    --clr-grey-10: #333333;
     /* other variables */
     --ff-primary: 'Roboto', sans-serif;
     --ff-secondary: 'Open Sans', sans-serif;
@@ -252,12 +252,12 @@ Navbar
         display: flex;
         justify-content: space-between;
     }
-    .nav-icons .social-icon {
+    .nav-icons, .social-icon {
         font-size: 1.5rem;
         transition: var(--transition);
         margin-left: 0.5rem;
     }
-    .nav-icons .social-icon:hover {
+    .nav-icons, .social-icon:hover {
         color: var(--clr-primary-4);
         transform: translateY(-5px);
     }
