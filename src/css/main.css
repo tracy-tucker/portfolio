@@ -5,33 +5,83 @@ Variables
 */
 
 :root {
+    /* primary colors */
+    --clr-primary-0: #F2C744;
+    --clr-primary-2: #F2E963;
+    --clr-primary-4: #F2D857;
+    --clr-primary-6: #A68444;
+    --clr-primary-8: #594A1D;
+    --clr-primary-10: #262626;
+    /* secondary colors */
+    /* primary widths */
     --max-width: 1170px;
+    --fixed-width: 700px;
 }
 
 /*
-  =============== 
-  Global Styles
-  ===============
-  */
+=============== 
+Global Styles
+===============
+*/
 
-  /* global classes */
+/* global classes */
 
-  /*
-  ===============
-  Navbar
-  ===============
-  */
-  .navbar {
-      height: 5rem;
-      display: flex;
-      align-items: center;
-      background: transparent;
-  }
+/*
+===============
+Navbar
+===============
+*/
+.navbar {
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    background: transparent;
+}
 
-  .navbar-center {
-      width: 90vw;
-      max-width: var(--max-width);
-      margin: 0 auto;
-  }
+.navbar-center {
+    width: 90vw;
+    max-width: var(--max-width);
+    margin: 0 auto;
+}
 
-  /* social links */
+/* social links */
+
+/*
+===============
+Footer
+===============
+*/
+.footer {
+    height: 7rem;
+    text-align: center;
+    background: var(--clr-primary-10);
+    display: grid;
+    place-items: center;
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: center;
+    line-height: 1;
+    margin-bottom: 0.5rem;
+}
+
+.footer-icons a {
+    font-size: 1.5rem;
+    margin: 0.5rem;
+    transition: var(--transition);
+}
+
+.footer-icons li {
+    transition: var(--transition);
+}
+
+.footer-icons li:hover {
+    transform: translateY(-10%);
+}
+
+.footer p {
+    margin-bottom: 0;
+    color: var(--clr-primary-4);
+    letter-spacing: var(--spacing);
+}
