@@ -23,5 +23,3 @@ const links = ({styleClass}) => {
 }
 
 export default links
-
-// Add CORRECT links
