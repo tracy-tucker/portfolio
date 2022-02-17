@@ -340,6 +340,19 @@ Sidebar
     color: var(--clr-primary-0);
 }
 
+ /*
+===============
+Single Pages
+===============
+*/
+
+.about-page {
+    min-height: calc(100vh - 7rem);
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+
 /*
 ===============
 Footer
