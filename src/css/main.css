@@ -340,7 +340,7 @@ Sidebar
     color: var(--clr-primary-0);
 }
 
- /*
+/*
 ===============
 Single Pages
 ===============
@@ -348,6 +348,19 @@ Single Pages
 
 .about-page,
 .contact-page {
+    min-height: calc(100vh - 7rem);
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+
+/*
+===============
+Single Components
+===============
+*/
+
+.intro-section {
     min-height: calc(100vh - 7rem);
     display: grid;
     place-items: center;
