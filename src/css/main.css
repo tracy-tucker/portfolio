@@ -140,7 +140,9 @@ p {
     text-align: center;
     margin: 3rem auto;
 }
+
 /* section */
+
 .page-center {
     width: 90vw;
     margin: 0 auto;
@@ -166,6 +168,7 @@ main {
 Navbar
 ===============
 */
+
 .navbar {
     height: 5rem;
     display: flex;
@@ -219,20 +222,23 @@ Navbar
     .toggle-btn {
         display: none;
     }
+
     .nav-center {
         display: grid;
         grid-template-columns: auto 1fr auto;
         column-gap: 2rem;
         align-items: center;
     }
+
     .nav-links {
         display: flex;
-        /* align-items:flex-end; */
-        justify-content: end;
-    }
+        justify-content: right; /* watch for error */
+    } 
+
     .page-link {
         margin-right: 1rem;
     }
+
     .page-link {
         color: var(--clr-primary-4);
         font-weight: 500;
@@ -244,23 +250,28 @@ Navbar
         padding: 0.25rem 0.5rem;
         border-radius: var(--radius);
     }
+
     .page-link:hover {
         background: var(--clr-primary-0);
         color: var(--clr-primary-4);
     }
+
     .nav-icons {
         display: flex;
         justify-content: space-between;
     }
-    .nav-icons, .social-icon {
+
+    .nav-icons .social-icon {
         font-size: 1.5rem;
         transition: var(--transition);
         margin-left: 0.5rem;
     }
-    .nav-icons, .social-icon:hover {
+
+    .nav-icons .social-icon:hover {
         color: var(--clr-primary-4);
         transform: translateY(-5px);
     }
+    
   }
 
 /* social links */
@@ -270,6 +281,7 @@ Navbar
 Footer
 ===============
 */
+
 .footer {
     height: 7rem;
     text-align: center;
