@@ -13,8 +13,10 @@ Variables
     /* --clr-primary-8: #594A1D; */
     --clr-primary-10: #212121;
     /* secondary colors */
+    --clr-grey-1: #bfbfbf;
     --clr-grey-3: #949494;
     --clr-grey-10: #333333;
+    --clr-tan-0: #FFC273;
     /* other variables */
     --ff-primary: 'Roboto', sans-serif;
     --ff-secondary: 'Open Sans', sans-serif;
@@ -382,7 +384,7 @@ Single Components
 }
 
 .hero-info h4 {
-    color: var(--clr-primary-0);
+    color: var(--clr-tan-0);
 }
 
 .hero-icons {
