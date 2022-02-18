@@ -11,7 +11,7 @@ const Hero = () => {
               <SocialLinks />
             </article>
             <article className='hero-img'>
-              image goes here
+              image goes here!
             </article>
         </div>
     </section>
