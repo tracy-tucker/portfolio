@@ -7,6 +7,7 @@ const Hero = () => {
     <section className='hero-comp'>
         <div className="section-center hero-center">
             <article className='hero-info'>
+              <div className="underline"></div>
               <h1>I'm Tracy</h1>
               <h4>My entire career in one sentence</h4>
               <SocialLinks />
