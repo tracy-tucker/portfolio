@@ -392,7 +392,8 @@ Single Pages
 */
 
 .about-page,
-.contact-page {
+.contact-page,
+.error-page {
     min-height: calc(100vh - 7rem);
     display: grid;
     place-items: center;
