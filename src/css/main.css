@@ -487,6 +487,7 @@ Footer
     height: 7rem;
     text-align: center;
     background: var(--clr-primary-10);
+    color: var(--clr-primary-4);
     display: grid;
     place-items: center;
 }
@@ -519,6 +520,6 @@ Footer
 
 .footer p {
     margin-bottom: 0;
-    color: var(--clr-primary-4);
+    /* color: var(--clr-primary-4); */
     letter-spacing: var(--spacing);
 }

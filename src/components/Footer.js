@@ -5,6 +5,7 @@ const Footer = () => {
   return (
     <footer className="footer">
         <div>
+          <h4>LET'S CONNECT</h4>
             <SocialLinks styleClass="footer-icons" />
             <p>
                 &copy;{new Date().getFullYear()} Tracy Tucker. ALL RIGHTS RESERVED.
