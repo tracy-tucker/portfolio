@@ -1,6 +1,6 @@
 import { Link } from 'gatsby'
 import React from 'react'
-import profile from '../assets/tracy-tucker-profile.jpg'
+import { StaticImage } from 'gatsby-plugin-image'
 
 const Hero = () => {
   return (
@@ -12,7 +12,14 @@ const Hero = () => {
               <h4>My entire career in one sentence</h4>
               <Link to="/contact" className='btn hero-btn'>Contact Me</Link>            </article>
             <article className='hero-img'>
-              <img src={profile} className='hero-photo' alt="Tracy Tucker" />
+              <StaticImage
+                src="../assets/tracy-tucker-profile-2.jpg"
+                placeholder='blurred'
+                width={300}
+                height={300}
+                className='hero-photo'
+                alt="Tracy Tucker" 
+              />
             </article>
         </div>
     </section>
