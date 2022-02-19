@@ -450,7 +450,8 @@ Single Components
     max-height: 30rem;
     -o-boject-fit: cover;
     object-fit: cover;
-    border-radius: var(--radius);
+    /* border-radius: var(--radius); */
+    border-radius: 50%;
 }
 
 @media screen and (min-width: 992px) {
@@ -463,7 +464,7 @@ Single Components
         grid-template-columns: 1fr 1fr;
     }
 
-    .hero-img::before,
+    /* .hero-img::before,
     .about-img::before {
         content: "";
         position: absolute;
@@ -473,7 +474,7 @@ Single Components
         top: 2rem;
         right: -2rem;
         border-radius: var(--radius);
-    }
+    } */
 }
 
 /*
