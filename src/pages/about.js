@@ -5,9 +5,35 @@ const about = () => {
   return (
     <Layout>
       <section className='section about-page'>
-        <div className="page-center">
-          <h1>This is the About page.</h1>
-          <p>Brooklyn farm-to-table raclette bespoke yr celiac roof party vexillologist butcher ramps. Tote bag iceland heirloom retro coloring book lyft. Stumptown crucifix neutra unicorn schlitz marfa waistcoat kitsch. Messenger bag tbh cloud bread portland williamsburg crucifix cray austin snackwave tacos forage dreamcatcher street art. Tote bag humblebrag celiac flannel actually PBR&B twee air plant trust fund meggings enamel pin. Cliche green juice deep v, ethical health goth sustainable 8-bit semiotics salvia.</p>
+        <div className="section-title">
+          <h1>About Me</h1>
+          <div className="underline"></div>
+        </div>
+        <div className="section-center about-page-center">
+          <article className='about-page-item'>
+            <h3>How I Started</h3>
+            <p>I started out as a digital marketer who became addicted to building things with code. I first became enthralled with the concept in 2011. At the time, I was living in the mountains and pushing hard on digital marketing ideas for a fitness company. I had outsourced a website project and was not happy with the outcomes or the amount of time it would take to implement tweaks to the layout.</p>
+            <p>I started inspecting the code and attempting to make changes myself. Needless to say, I broke a lot of functionality along the way.</p>
+            <span className='number'>0</span>
+          </article>
+          <article className='about-page-item'>
+            <h3>Baby Steps</h3>
+            <p>But I got better! This led to me diving into the little things, such as developing marketing emails with HTML tables with in-line CSS. This quickly grew into me dabbling with WordPress and working with listless plugins.</p>
+            <p>My progression continued after moving south, as I started spear-heading website projects on a CMS platform for a fast-growing automotive company. I had come far from where I started, but still felt the need to learn more.</p>
+            <span className='number'>1</span>
+          </article>
+          <article className='about-page-item'>
+            <h3>Breakthrough</h3>
+            <p>While working within the constraints of the company CMS system, I convinced a Ford Motor Company developer to give me additional access so that I could start coding beyond the constraints of the CMS platform. Within a testing environment, I started breaking things left and right - and that was okay! I was learning! And enjoying every minute of it.</p>
+            <p>This same developer shared online resources with me so that I could dive into a world of coding outside of a restricted company CMS.</p>
+            <span className='number'>2</span>
+          </article>
+          <article className='about-page-item'>
+            <h3>Continued Education</h3>
+            <p>I soon found myself working through many online resources, including FreeCodeCamp, Linda and more. Before I knew it, I was coding when I woke up, as soon as I got home from work and through all my weekends. This led to me moving on to more challenging positions and continuing working on side projects to keep progressing.</p>
+            <p>After years of coding on my own, I finally signed up for FlatIron to continue to excel, as well as speed up the...</p>
+            <span className='number'>3</span>
+          </article>
         </div>
       </section>
     </Layout>
