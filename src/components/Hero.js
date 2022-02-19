@@ -13,7 +13,7 @@ const Hero = () => {
               <Link to="/contact" className='btn hero-btn'>Contact Me</Link>            </article>
             <article className='hero-img'>
               <StaticImage
-                src="../assets/tracy-tucker-profile-2.jpg"
+                src="../assets/tracy-tucker-profile.jpg"
                 placeholder='blurred'
                 width={300}
                 height={300}

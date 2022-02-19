@@ -183,7 +183,6 @@ p {
 .bg-grey {
     background: var(--clr-grey-10);
 }
-/* social links */
 
 main {
     margin-top: -5rem;
@@ -321,8 +320,6 @@ Navbar
     }
     
   }
-
-/* social links */
 
 /*
 ===============
@@ -477,6 +474,9 @@ Single Components
         border-radius: var(--radius);
     } */
 }
+
+/*ABOUT*/
+
 
 /*
 ===============

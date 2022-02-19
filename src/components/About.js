@@ -1,8 +1,9 @@
 import React from 'react'
+import { StaticImage } from 'gatsby-plugin-image'
 
 const About = () => {
   return (
-    <section className='section about'>
+    <section className='section'>
         <div className="section-center about-center">
             <article className='about-img'>
                 image goes here
