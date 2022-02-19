@@ -400,6 +400,10 @@ Single Pages
     text-align: center;
 }
 
+.single-page {
+    background: var(--clr-grey-1);
+}
+
 /*
 ===============
 Single Components
