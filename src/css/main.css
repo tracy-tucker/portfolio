@@ -219,6 +219,7 @@ Navbar
     background: var(--clr-primary-10);
     -webkit-transition: var(--transition);
     transition: var(--transition);
+    z-index: 999;
 }
 
 .nav-center {
@@ -484,7 +485,9 @@ Footer
 */
 
 .footer {
-    height: 7rem;
+    position: sticky;
+    bottom: 0;
+    height: 8rem;
     text-align: center;
     background: var(--clr-primary-10);
     color: var(--clr-primary-4);
