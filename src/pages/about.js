@@ -24,15 +24,20 @@ const about = () => {
           </article>
           <article className='about-page-item'>
             <h3>Breakthrough</h3>
-            <p>While working within the constraints of the company CMS system, I convinced a Ford Motor Company developer to give me additional access so that I could start coding beyond the constraints of the CMS platform. Within a testing environment, I started breaking things left and right - and that was okay! I was learning! And enjoying every minute of it.</p>
-            <p>This same developer shared online resources with me so that I could dive into a world of coding outside of a restricted company CMS.</p>
+            <p>While working within the constraints of a CMS, I convinced a Ford Motor Company developer to give me additional access so that I could start coding beyond the constraints of the CMS platform. Within a testing environment, I started breaking things left and right - and that was okay! I was learning! And enjoying every minute of it.</p>
+            <p>This same developer shared online resources with me so that I could dive into a world of coding outside of CMS constraints.</p>
             <span className='number'>2</span>
           </article>
           <article className='about-page-item'>
             <h3>Continued Education</h3>
             <p>I soon found myself working through many online resources, including FreeCodeCamp, Linda and more. Before I knew it, I was coding when I woke up, as soon as I got home from work and through all my weekends. This led to me moving on to more challenging positions and continuing working on side projects to keep progressing.</p>
-            <p>After years of coding on my own, I finally signed up for FlatIron to continue to excel, as well as speed up the...</p>
+            <p>After years of coding on my own, I finally signed up for the FlatIron Fullstack Developer program to expand my learning into a more structured environment.</p>
             <span className='number'>3</span>
+          </article>
+          <article className='about-page-item'>
+            <h3>Today and Beyond</h3>
+            <p>I am still addicted to code in each and every way. As a developer, I firmly believe that one should never stop learning, and I put this belief into practice daily. I am currently working on a few different projects to keep my skills sharp in an ever-changing industry, and to continue "leveling up" within the field.</p>
+            <span className='number'>4</span>
           </article>
         </div>
       </section>

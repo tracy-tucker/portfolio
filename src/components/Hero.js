@@ -9,7 +9,7 @@ const Hero = () => {
             <article className='hero-info'>
               <div className="underline"></div>
               <h1>I'm Tracy</h1>
-              <h4>My entire career in one sentence</h4>
+              <h4>Experienced Frontend Developer</h4>
               <Link to="/contact" className='btn hero-btn'>Contact Me</Link>            </article>
             <article className='hero-img'>
               <StaticImage
