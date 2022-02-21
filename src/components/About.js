@@ -8,7 +8,7 @@ const About = () => {
         <div className="section-center about-center">
             <article className='about-img'>
                 <StaticImage
-                    src="../assets/tracy-tucker-in-action.jpg"
+                    src="../assets/tracy-tucker-in-action.png"
                     className='hero-photo about-photo'
                     width={350}
                     height={350}
