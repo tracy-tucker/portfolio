@@ -397,17 +397,20 @@ Single Pages
 ===============
 */
 
-.about-page,
+/* .about-page,
 .contact-page,
 .error-page {
     min-height: calc(100vh - 7rem);
     display: grid;
     place-items: center;
     text-align: center;
-}
+} */
 
 .single-page {
     min-height: calc(100vh - 7rem);
+    display: grid;
+    place-items: center;
+    text-align: center;
 }
 
 /* About Design */

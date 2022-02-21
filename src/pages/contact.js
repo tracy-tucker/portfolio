@@ -4,8 +4,8 @@ import Layout from '../components/Layout'
 const contact = () => {
   return (
     <Layout>
-      <section className='contact-page'>
-        <div className="page-center">
+      <section className='section single-page'>
+        <div>
           <h1>This is the Contact page.</h1>
         </div>
       </section>
