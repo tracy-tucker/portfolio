@@ -36,7 +36,7 @@ const about = () => {
           </article>
           <article className='about-page-item'>
             <h3>Today and Beyond</h3>
-            <p>I am still addicted to code in each and every way. As a developer, I firmly believe that one should never stop learning, and I put this belief into practice daily. I am currently working on a few different projects to keep my skills sharp in an ever-changing industry, and to continue "leveling up" within the field.</p>
+            <p>I am still addicted to code in each and every way. As a developer, I firmly believe that one should never stop learning, and I put this belief into practice daily. I am currently working on a few different projects utilizing different stacks to keep my skills sharp in an ever-changing industry, and to continue "leveling up"! I have no desire throw in the towel.</p>
             <span className='number'>4</span>
           </article>
         </div>
