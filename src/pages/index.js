@@ -6,7 +6,6 @@ import About from "../components/About"
 export default function Home() {
   return (
     <Layout>
-      I am the Index page.
       <Hero />
       <About />
     </Layout>

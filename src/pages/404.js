@@ -5,7 +5,7 @@ import Layout from '../components/Layout'
 const ErrorPage = () => {
     return (
         <Layout>
-          <section className='error-page'>
+          <section className='single-page'>
             <div className="page-center">
                 <h1>ERROR</h1>
               <h3>Oops! Something went wrong...</h3>

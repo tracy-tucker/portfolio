@@ -4,7 +4,7 @@ import Layout from '../components/Layout'
 const about = () => {
   return (
     <Layout>
-      <section className='section about-page'>
+      <section className='section single-page about-page'>
         <div className="section-title">
           <h1>About Me</h1>
           <div className="underline"></div>

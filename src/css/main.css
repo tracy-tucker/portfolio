@@ -63,7 +63,7 @@ h2,
 h3,
 h4 {
     letter-spacing: var(--spacing);
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
     line-height: 1.25;
     margin-bottom: 0.75rem;
     font-family: var(--primary);   
@@ -83,6 +83,7 @@ h3 {
 
 h4 {
     font-size: 0.875rem;
+    font-weight: 200;
 }
 
 p {
@@ -102,6 +103,7 @@ p {
     }
     h4 {
       font-size: 1rem;
+      font-weight: 200;
     }
     body {
       font-size: 1rem;

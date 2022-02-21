@@ -5,8 +5,10 @@ const contact = () => {
   return (
     <Layout>
       <section className='section single-page'>
-        <div>
-          <h1>This is the Contact page.</h1>
+        <div className='section-title'>
+          <h1>Contact me</h1>
+          <div className="underline"></div>
+          <h4>Reaching out is just a click away</h4>
         </div>
       </section>
     </Layout>
