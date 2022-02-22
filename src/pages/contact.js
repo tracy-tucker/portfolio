@@ -11,7 +11,10 @@ const contact = () => {
           <div className="underline"></div>
           <h4>Reaching out is just a click away</h4>
         </div>
-        <p>I need to put something here to discuss getting ahold of me</p>
+        <div className="section-center">
+          <p>Whether you have a question or just want to say hello, my inbox is always open.</p>
+          <p>I'll reply back to you as soon as I am able.</p>
+        </div>
         <Handles />
       </section>
     </Layout>

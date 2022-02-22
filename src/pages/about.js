@@ -10,6 +10,7 @@ const about = () => {
           <div className="underline"></div>
         </div>
         <div className="section-center about-page-center">
+          <div><h2>My Story</h2></div>
           <article className='about-page-item'>
             <h3>How I Started</h3>
             <p>I started out as a digital marketer who became addicted to building things with code. I first became enthralled with the concept in 2011. At the time, I was living in the mountains and pushing hard on digital marketing ideas for a fitness company. I had outsourced a website project and was not happy with the outcomes or the amount of time it would take to implement tweaks to the layout.</p>
