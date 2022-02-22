@@ -206,16 +206,6 @@ Navbar
     display: none;
 }
 
-/* .nav {
-    height: 5rem;
-    padding: 1rem;
-    display: grid;
-    -webkit-box-align: center;
-    align-items: center;
-    -webkit-transition: var(--transition);
-    transition: var(--transition);
-} */
-
 .navbar {
     position: sticky;
     top: 0;
@@ -399,15 +389,6 @@ Single Pages
 ===============
 */
 
-/* .about-page,
-.contact-page,
-.error-page {
-    min-height: calc(100vh - 7rem);
-    display: grid;
-    place-items: center;
-    text-align: center;
-} */
-
 .single-page {
     min-height: calc(100vh - 7rem);
     display: grid;
@@ -490,9 +471,7 @@ Single Components
 .hero-comp {
     background: var(--clr-primary-10);
     color: var(--clr-primary-4);
-    /* margin-bottom: 0.3rem; */
     margin-left: 0;
-    /* text-align: center; */
 }
 
 .hero-img {
@@ -567,13 +546,23 @@ Single Components
         position: relative;
     }
 
-    /* .about-img::before {
-        left: 2rem;
-    } */
     .about-info {
         align-self: center;
         width: 90%;
     }
+}
+
+/*HANDLES*/
+.handle-comp {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.handle-icon {
+    font-size: 4rem;
+    margin: 0 auto;
 }
 
 /*
@@ -621,6 +610,5 @@ Footer
 
 .footer p {
     margin-bottom: 0;
-    /* color: var(--clr-primary-4); */
     letter-spacing: var(--spacing);
 }
