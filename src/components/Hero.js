@@ -10,7 +10,8 @@ const Hero = () => {
               <div className="underline"></div>
               <h1>I'm Tracy</h1>
               <h4>Frontend Software Engineer</h4>
-              <Link to="/contact" className='btn hero-btn'>Contact Me</Link>            </article>
+              <Link to="/contact" className='btn hero-btn'>Contact Me</Link>
+            </article>
             <article className='hero-img'>
               <StaticImage
                 src="../assets/tracy-tucker-profile.png"

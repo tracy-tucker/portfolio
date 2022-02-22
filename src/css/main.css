@@ -552,17 +552,32 @@ Single Components
     }
 }
 
-/*HANDLES*/
-.handle-comp {
+/*INFO*/
+.info-center {
+    /* width: 100%;
+    height: 100%;
     display: grid;
-    grid-template-columns: auto auto auto;
-    justify-content: center;
-    align-items: center;
+    gap: 3rem 2rem;
+    align-items: center; */
+    display: grid;
+    gap: 3rem 2rem;
 }
 
-.handle-icon {
-    font-size: 4rem;
+.info-content {
+    justify-self: center;
+    align-self: center;
+    width: 90%;
+}
+
+.info-icon {
+    font-size: 2rem;
     margin: 0 auto;
+    align-self: center;
+}
+@media screen and (min-width: 992px) {
+    .info-center {
+        grid-template-columns: 1fr 1fr;
+    }
 }
 
 /*
