@@ -2,7 +2,6 @@ import React from 'react'
 import Layout from '../components/Layout'
 import { StaticImage } from 'gatsby-plugin-image'
 import { Link } from 'gatsby'
-import Info from '../components/Info'
 
 const contact = () => {
   return (
