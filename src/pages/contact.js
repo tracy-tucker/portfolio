@@ -29,7 +29,6 @@ const contact = () => {
             </article>
         </div>      
       </section>
-      <Info />
     </Layout>
   )
 }
