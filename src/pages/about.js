@@ -11,6 +11,7 @@ const about = () => {
           <div className="underline"></div>
         </div>
         <Toolkit />
+        <div className="blue">
         <div className="section-center about-page-center">
           <div><h2>My Story</h2></div>
           <article className='about-page-item'>
@@ -42,6 +43,7 @@ const about = () => {
             <p>I am still addicted to code in each and every way. As a developer, I firmly believe that one should never stop learning, and I put this belief into practice daily. I am currently working on a few different projects utilizing different stacks to keep my skills sharp in an ever-changing industry, and to continue "leveling up"! I have no desire throw in the towel. I need to add information about Houston React Developers meetup.</p>
             <span className='number'>4</span>
           </article>
+        </div>
         </div>
       </section>
     </Layout>

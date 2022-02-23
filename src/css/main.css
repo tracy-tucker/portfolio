@@ -402,6 +402,11 @@ Single Pages
 
 /* About Design */
 
+.blue {
+    background: var(--clr-primary-10);
+    color: var(--clr-primary-4);
+}
+
 .about-page-center {
     width: 90vw;
     max-width: 60rem;
