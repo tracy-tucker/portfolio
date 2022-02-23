@@ -1,5 +1,6 @@
 import React from 'react'
 import Layout from '../components/Layout'
+import Toolkit from '../components/Toolkit'
 
 const about = () => {
   return (
@@ -9,6 +10,7 @@ const about = () => {
           <h1>About Me</h1>
           <div className="underline"></div>
         </div>
+        <Toolkit />
         <div className="section-center about-page-center">
           <div><h2>My Story</h2></div>
           <article className='about-page-item'>
