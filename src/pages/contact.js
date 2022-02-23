@@ -6,7 +6,7 @@ import { Link } from 'gatsby'
 const contact = () => {
   return (
     <Layout>
-      <section className='section'>
+      <section className='section height'>
         <div className='section-title'>
           <h1>Contact me</h1>
           <div className="underline"></div>

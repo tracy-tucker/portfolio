@@ -389,6 +389,10 @@ Single Pages
 ===============
 */
 
+.height {
+    min-height: calc(100vh - 7rem);
+}
+
 .single-page {
     min-height: calc(100vh - 7rem);
     display: grid;
