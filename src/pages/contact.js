@@ -23,10 +23,10 @@ const contact = () => {
                 />
             </article>
             <article className='about-info'>
-                <h3>About</h3>
+                <h4>LET'S GET IN TOUCH</h4>
                 {/* <div className="underline"></div> */}
-                    <p>Everyone has their own story how they became a developer. For some, their journey began after years of endless workdays in a career that didn't bring fulfillment. Others may have been fortunate enough that they already knew from the get-go what they wanted to do!</p><p>For me? Mine was a mixture of both. The drive to be a developer was always there for me - I just didn't know it!</p>
-                    <Link to='/about' className='btn'>email</Link> <Link to='/about' className='btn'>resume</Link>
+                    <p>Whether you have a question or just want to say hello, my inbox is always open. I'll reply back to you as soon as I am able. I welcome all inquiries and introductions, no matter how big or small.</p><p>Just looking for the facts? Feel free to grab a copy of my resume instead!</p>
+                    <a href="mailto:tracytuckeremail@gmail.com" className='btn'>email</a> <Link to='/about' className='btn'>resume</Link>
             </article>
         </div>      
       </section>
