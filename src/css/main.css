@@ -554,30 +554,35 @@ Single Components
 
 /*INFO*/
 .info-center {
-    /* width: 100%;
-    height: 100%;
     display: grid;
     gap: 3rem 2rem;
-    align-items: center; */
-    display: grid;
-    gap: 3rem 2rem;
+    justify-content: center;
 }
 
 .info-content {
     justify-self: center;
-    align-self: center;
+    /* align-self: center; */
     width: 90%;
 }
 
 .info-icon {
-    font-size: 2rem;
+    /* font-size: 1.5rem; */
     margin: 0 auto;
-    align-self: center;
+    background: var(--clr-primary-0);
+    color: var(--clr-primary-4);
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
 }
+
+.info-icon:first-child {
+    padding: 10px;
+}
+
 @media screen and (min-width: 992px) {
-    .info-center {
+    /* .info-center {
         grid-template-columns: 1fr 1fr;
-    }
+    } */
 }
 
 /*

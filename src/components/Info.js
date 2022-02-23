@@ -6,10 +6,12 @@ const Info = () => {
     <div className='section'>
       <div className='section-center info-center'>
         <article className='info-content'>
+          <div>
           <MdEmail className='info-icon'/> <span>EMAIL</span>
-        </article>
-        <article className='info-content'>
+          </div>
+          <div>
           <MdEmail className='info-icon'/> <span>EMAIL</span>
+          </div>
         </article>
         </div>
     </div>
