@@ -1,12 +1,12 @@
 import React from "react"
 import Layout from "../components/Layout"
 import { StaticImage } from "gatsby-plugin-image"
-import { Link } from "gatsby"
 
 const about = () => {
   return (
     <Layout>
       <section className="section">
+        {/* Title */}
         <div className="section-title">
           <h1>About Me</h1>
           <div className="underline"></div>
@@ -14,39 +14,51 @@ const about = () => {
         <div className="section-center about-center">
           <article className="about-img">
             <StaticImage
-              src="../assets/lets-connect.jpg"
+              src="../assets/toolbox.jpg"
               className="hero-photo about-photo"
               width={350}
               height={350}
               alt="Tracy Tucker in action"
             />
           </article>
-          <article className="about-info">
-            <h4>IN MY TOOLBOX</h4>
-            {/* <div className="underline"></div> */}
+          {/* Tools */}
+          <article className="about-info toolbox">
+            <h3>My Toolbox</h3>
+            <div className="underline"></div>
+            <h5>LANGUAGES</h5>
             <p>
-              Whether you have a question or just want to say hello, my inbox is
-              always open. I'll reply back to you as soon as I am able. I
-              welcome all inquiries and introductions, no matter how big or
-              small.
+              HTML, CSS, JS (&amp; ES6 +), HUBL, GraphQL, Ruby, and more to
+              explore there
             </p>
+            <h5>LIBRARIES &amp; FRAMEWORKS</h5>
             <p>
-              Just looking for the facts? Feel free to grab a copy of my resume
-              instead!
+              ReactJS, GatsbyJS, NodeJS, ExpressJS, Rails, Redux, and still
+              going
             </p>
-            <a href="mailto:tracytuckeremail@gmail.com" className="btn">
-              email
-            </a>{" "}
-            <Link to="/about" className="btn">
-              resume
-            </Link>
+            <h5>TOOLS &amp; PLATFORMS</h5>
+            <p>
+              GitHub, Netlify, Heroku, Contentful, WordPress, HubSpot, Strapi,
+              Firebase, and can't stop - won't stop
+            </p>
+            <h5>ENGAGEMENTS</h5>
+            <p>
+              Organizer for{" "}
+              <a href="#" target="_blank" non-referrer>
+                Houston React Developer Group
+              </a>
+              <br />
+              Active Hacker for{" "}
+              <a href="#" target="_blank">
+                Girl, Develop It!
+              </a>
+            </p>
           </article>
         </div>
       </section>
       <section className="about-page">
-        <div className="blue">
+        <div className="black">
           <div className="section-center about-page-center">
-            <div>
+            <div className="section-title">
               <h2>My Story</h2>
             </div>
             <article className="about-page-item">
