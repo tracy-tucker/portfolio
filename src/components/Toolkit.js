@@ -15,7 +15,7 @@ const Toolkit = () => {
             />
         </article>
         <article className='about-info'>
-            <h4>LET'S GET IN TOUCH</h4>
+            <h4>IN MY TOOLBOX</h4>
             {/* <div className="underline"></div> */}
                 <p>Whether you have a question or just want to say hello, my inbox is always open. I'll reply back to you as soon as I am able. I welcome all inquiries and introductions, no matter how big or small.</p><p>Just looking for the facts? Feel free to grab a copy of my resume instead!</p>
                 <a href="mailto:tracytuckeremail@gmail.com" className='btn'>email</a> <Link to='/about' className='btn'>resume</Link>
