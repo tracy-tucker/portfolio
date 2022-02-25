@@ -43,12 +43,12 @@ const about = () => {
             <h5>ENGAGEMENTS</h5>
             <p>
               Organizer for{" "}
-              <a href="#" target="_blank" non-referrer>
+              <a href="/" target="_blank" non-referrer>
                 Houston React Developer Group
               </a>
               <br />
               Active Hacker for{" "}
-              <a href="#" target="_blank">
+              <a href="/" target="_blank">
                 Girl, Develop It!
               </a>
             </p>
