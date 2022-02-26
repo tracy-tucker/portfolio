@@ -1,8 +1,13 @@
 import React from "react"
-import Projects from "../components/Projects"
 import Layout from "../components/Layout"
+import { graphql } from "gatsby"
+import Projects from "../components/Projects"
 
-const projects = () => {
+const ProjectsPage = ({ data }) => {
+  const {
+    allContentfulProject: { nodes: projects },
+  } = data
+
   return (
     <Layout>
       <section className="section height">
@@ -11,7 +16,7 @@ const projects = () => {
           <div className="underline"></div>
           <div className="section-center about-center">
             here are the projects
-            <Projects />
+            <Projects projects={projects} />
           </div>
         </div>
       </section>
@@ -19,7 +24,31 @@ const projects = () => {
   )
 }
 
-export default projects
+export const query = graphql`
+  {
+    allContentfulProject {
+      nodes {
+        id
+        title
+        image {
+          gatsbyImageData
+        }
+        sourceCode
+        description {
+          description
+        }
+        content {
+          id
+          stack
+          tags
+        }
+        gitHub
+      }
+    }
+  }
+`
+
+export default ProjectsPage
 
 // Make data request on this page
 // Pass over to Projects
