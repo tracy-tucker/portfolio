@@ -8,22 +8,32 @@ const Project = project => {
   const { stack } = content
 
   return (
-    <div>
-      <div key={id}>
-        <h3>{title}</h3>
-        <GatsbyImage image={pathToImage} alt={title} />
-        <a href={sourceCode} target="_blank" rel="noreferrer">
-          Source Code Link
-        </a>
-        <p>{desc}</p>
-        {stack.map((item, index) => {
-          return <p key={index}>{item}</p>
-        })}
-        <a href={gitHub} target="_blank" rel="noreferrer">
-          GitHub Link
-        </a>
+    <section className="section">
+      <div className="section-center projects-center">
+        <article key={id} className="single-project">
+          <div className="project-container">
+            <GatsbyImage image={pathToImage} alt={title} />
+            <a href={sourceCode} target="_blank" rel="noreferrer">
+              Source Code Link
+            </a>
+          </div>
+          <div className="project-details">
+            <h4>{title}</h4>
+            <p>{desc}</p>
+            <div>
+              {stack.map((item, index) => {
+                return <p key={index}>{item}</p>
+              })}
+            </div>
+            <div className="project-footer">
+              <a href={gitHub} target="_blank" rel="noreferrer">
+                GitHub Link
+              </a>
+            </div>
+          </div>
+        </article>
       </div>
-    </div>
+    </section>
   )
 }
 
