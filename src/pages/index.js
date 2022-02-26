@@ -14,7 +14,9 @@ const Home = ({ data }) => {
     <Layout>
       <Hero />
       <About />
-      <Projects projects={projects} />
+      <div className="black">
+        <Projects projects={projects} />
+      </div>
     </Layout>
   )
 }
