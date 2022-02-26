@@ -1,7 +1,14 @@
 import React from "react"
+import Project from "./Project"
 
-const Projects = () => {
-  return <div>Projects</div>
+const Projects = ({ projects }) => {
+  return (
+    <div>
+      {projects.map(project => {
+        return <Project key={project.id} {...project} />
+      })}
+    </div>
+  )
 }
 
 export default Projects
