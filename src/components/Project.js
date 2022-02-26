@@ -5,7 +5,7 @@ const Project = project => {
   const { id, title, image, sourceCode, description, content, gitHub } = project
   const pathToImage = getImage(image)
   const desc = description.description
-  const { stack, tags } = content
+  const { stack } = content
 
   return (
     <div>
