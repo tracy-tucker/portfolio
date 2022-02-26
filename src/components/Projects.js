@@ -3,7 +3,7 @@ import Project from "./Project"
 
 const Projects = ({ projects }) => {
   return (
-    <div>
+    <div className="section-center projects-center">
       {projects.map(project => {
         return <Project key={project.id} {...project} />
       })}
@@ -12,5 +12,3 @@ const Projects = ({ projects }) => {
 }
 
 export default Projects
-
-// Take in posts data, map and pass along to Post

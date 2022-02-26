@@ -14,11 +14,8 @@ const ProjectsPage = ({ data }) => {
         <div className="section-title">
           <h1>Projects</h1>
           <div className="underline"></div>
-          <div className="section-center about-center">
-            here are the projects
-            <Projects projects={projects} />
-          </div>
         </div>
+        <Projects projects={projects} />
       </section>
     </Layout>
   )
