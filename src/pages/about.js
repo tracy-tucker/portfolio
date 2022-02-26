@@ -48,7 +48,7 @@ const about = () => {
               </a>
               <br />
               Active Hacker for{" "}
-              <a href="/" target="_blank">
+              <a href="/" target="_blank" non-referrer>
                 Girl, Develop It!
               </a>
             </p>
