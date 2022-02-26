@@ -1,5 +1,5 @@
 import React from "react"
-import AllProjects from "../components/AllProjects"
+import Projects from "../components/Projects"
 import Layout from "../components/Layout"
 
 const projects = () => {
@@ -11,7 +11,7 @@ const projects = () => {
           <div className="underline"></div>
           <div className="section-center about-center">
             here are the projects
-            <AllProjects />
+            <Projects />
           </div>
         </div>
       </section>
