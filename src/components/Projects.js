@@ -3,10 +3,12 @@ import Project from "./Project"
 
 const Projects = ({ projects }) => {
   return (
-    <div className="section-center projects-center">
-      {projects.map(project => {
-        return <Project key={project.id} {...project} />
-      })}
+    <div className="grey">
+      <div className="section-center projects-center">
+        {projects.map(project => {
+          return <Project key={project.id} {...project} />
+        })}
+      </div>
     </div>
   )
 }
