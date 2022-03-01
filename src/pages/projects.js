@@ -12,7 +12,7 @@ const ProjectsPage = ({ data }) => {
     <Layout>
       <section className="section height">
         <div className="section-title">
-          <h1>Projects</h1>
+          <h1>My Projects</h1>
           <div className="underline"></div>
         </div>
         <Projects projects={projects} />
