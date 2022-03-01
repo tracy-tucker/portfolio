@@ -14,8 +14,8 @@ const Home = ({ data }) => {
     <Layout>
       <Hero />
       <About />
-      <div className="black">
-        <Projects projects={projects} />
+      <div className="grey">
+        <Projects projects={projects} showTitle />
       </div>
     </Layout>
   )

@@ -16,7 +16,7 @@ const About = () => {
           />
         </article>
         <article className="about-info">
-          <h2>About Me</h2>
+          <h2>About</h2>
           <div className="underline"></div>
           <p>
             Everyone has their own story how they became a developer. For some,
