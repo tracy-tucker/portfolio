@@ -1,7 +1,8 @@
 import React from "react"
 import Project from "./Project"
+import { Link } from "gatsby"
 
-const Projects = ({ projects, showTitle }) => {
+const Projects = ({ projects, showTitle, showMore }) => {
   return (
     <div className="grey">
       <div className="section-center">
@@ -16,6 +17,11 @@ const Projects = ({ projects, showTitle }) => {
             return <Project key={project.id} {...project} />
           })}
         </div>
+        {showMore && (
+          <Link to="/projects" className="btn">
+            all projects
+          </Link>
+        )}
       </div>
     </div>
   )

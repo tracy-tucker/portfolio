@@ -583,6 +583,7 @@ Single Components
 
 .single-project {
   margin-top: 2rem;
+  margin-bottom: 2rem;
   border-radius: var(--radius);
   background: var(--clr-primary-4);
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
