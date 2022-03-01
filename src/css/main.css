@@ -632,6 +632,10 @@ Single Components
   justify-content: space-between;
 }
 
+.stack p {
+  color: var(--clr-primary-0);
+}
+
 .project-footer {
   display: flex;
   justify-content: center;
