@@ -27,7 +27,7 @@ const about = () => {
             <div className="underline"></div>
             <h5>LANGUAGES</h5>
             <p>
-              HTML, CSS, JS (&amp; ES6 +), HUBL, GraphQL, Ruby, and more to
+              HTML, CSS, JS (&amp; ES6 +), HubL, GraphQL, Ruby, and more to
               explore there
             </p>
             <h5>LIBRARIES &amp; FRAMEWORKS</h5>
