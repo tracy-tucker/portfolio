@@ -522,7 +522,7 @@ Single Components
 }
 
 .hero-photo {
-  -o-boject-fit: cover;
+  -o-object-fit: cover;
   object-fit: cover;
   border-radius: 50%;
 }
