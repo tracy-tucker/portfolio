@@ -159,8 +159,13 @@ p {
   max-width: var(--max-width);
 }
 
+.section-center.width-auto {
+  width: unset;
+}
+
 @media screen and (min-width: 992px) {
-  .section-center {
+  .section-center,
+  .section-center.width-auto {
     width: 95vw;
   }
 }

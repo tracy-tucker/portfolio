@@ -4,8 +4,8 @@ import { Link } from "gatsby"
 
 const Projects = ({ projects, showTitle, showMore }) => {
   return (
-    <div className="grey">
-      <div className="section-center">
+    <>
+      <div className="section-center width-auto">
         {showTitle && (
           <div>
             <h2>Featured Projects</h2>
@@ -23,7 +23,7 @@ const Projects = ({ projects, showTitle, showMore }) => {
           </Link>
         )}
       </div>
-    </div>
+    </>
   )
 }
 
